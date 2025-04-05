@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+h2, h4 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 300;
+}
+
+input, button {
+    font-family: inherit;
+}
+.signup{
+    position: fixed;
+    top: 0px;
+    left: 4%;
+    z-index: 2000;
+    background-color: white;
+}
+.signupcontainer{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 210px;
+    height: 350px;
+    margin-right: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.signupform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: x-small;
+}
+.logo{
+    margin: 5px;
+    padding: 0px;
+}
+.signupwg{
+    border-radius: 4px;
+    background-color: white;
+    padding: 0px;
+    color: black;
+    border-color: lightgrey;
+    font-size: 10px;
+    margin-top: 2px;
+    FONT-WEIGHT: 500;
+    height: 15px;
+    width: 169.6px
+
+}
+.outer{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-around;
+  
+}
+.imageofroutewise{
+    height: 400px;
+    width:45vw;
+}
+.imageofroutewisecontainer{
+
+}
+/* General Page Layout */
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+/* Logo Styling */
+.logo2 {
+    position: fixed;
+    top: 1rem;
+    height: 4rem;
+    width: 11rem;
+}
+
+/* Signup Container */
+.signupcontainer {
+    height: 34rem;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background: white;
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header and Subtext */
+.signup-header {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+
+.signup-subtext {
+    color: grey;
+    font-size: 1em;
+}
+
+/* Google Signup Button */
+.signup-google {
+    border-radius: 2px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    font-size: 0.7em;
+    margin-top: 1em;
+    width: 17em;
+    height: 3em;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.google-button-content {
+    display: flex;
+    align-items: center;
+}
+
+.google-logo {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+/* OR Separator */
+.or-text {
+    font-size: 0.8em;
+    margin: 0.5em 0.5em 0.5em;
+}
+
+/* Form Styles */
+.signupform {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.signupform label {
+    padding: 0.5em;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: black;
+}
+
+.signupform input {
+    color: grey;
+    background-color: white;
+    font-size: 1.1em;
+    width: 90%;
+    height: 3em;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* Signup Button */
+.signup-button {
+    width: 93%;
+    height: 3em;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Sign-in Link */
+.signin-link {
+    margin-top: 1em;
+    margin-left: 3.1em;
+    font-size: 1.3em;
+    color: black;
+}
+
+.signin-link a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Image Container */
+.imageofroutewisecontainer {
+    flex-shrink: 0;
+    max-width: 50%;
+}
+
+.imageofroutewise {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+
+    .outer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .signupcontainer {
+        width: 90%;
+    }
+
+    .imageofroutewisecontainer {
+        display: none;
+    }
+}
+
